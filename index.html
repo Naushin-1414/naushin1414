@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naushin Zahra - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#skills">Skills</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Hi, I'm Naushin Zahra, a passionate Web Developer and Electronics Engineer.</p>
+            <a href="#contact" class="cta-button">Get in Touch</a>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a student of Anjuman College of Engineering and Technology, currently in my 3rd year of Electronics. I have experience in web development and a growing knowledge of Python and SQL.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skill">
+            <h3>Web Development</h3>
+            <p>HTML, CSS, JavaScript, React, Node.js</p>
+        </div>
+        <div class="skill">
+            <h3>Programming</h3>
+            <p>Python, SQL, C++</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>To-Do List Application</h3>
+            <p>A web-based to-do list application developed during my internship at Yhills.</p>
+        </div>
+        <div class="project">
+            <h3>Personal Blog</h3>
+            <p>A blog where I share my thoughts on technology and electronics.</p>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="mailto:naushinzahra1414e@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit" class="cta-button">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Naushin Zahra. All rights reserved.</p>
+    </footer>
+</body>
+</html>
